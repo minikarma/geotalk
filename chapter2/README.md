@@ -9,11 +9,11 @@
 [Metro Extracts](http://mapzen.com/metro-extracts) — данные по крупным городам от Mapzen  
 [Ссылки на другие проекты](http://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts) где можно скачивать данные OpenStreetMap 
 
-
-**Открытые данные от муниципалитетов:**  
+**Открытые:**  
 [data.mos.ru](http://data.mos.ru) — портал открытых данных Правительства Москвы  
 [data.gov.uk](http://data.gov.uk) — Великобритания  
 [data.gov](http://data.gov) — США  
+[Полезные ресурсы по открытым данным](http://habrahabr.ru/company/infoculture/blog/201892/) — большая подборка ссылок на открытые данные в России  
 
 **Дополнительные ссылки:**  
 [Хорошая презентация](http://maptime.io/geodata/#0) про основные типы данных от maptime.io  
