@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>bike stations</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+<style>
+
+body {
+  margin: 0;
+  background: #222;
+  min-width: 600px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  color: #aaa;
+  font-size: 15px;
+}
+
+
+a ,a:visited {
+	color: #ccc;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+circle {
+  fill: none;
+  stroke-width: 2.5px;
+}
+
+#page {
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#tooltip {
+	font-size: 24px;
+	color: #fff;
+	font-family: Helvetica, Arial, Sans-Serif;
+
+	background: rgba(30,30,30,0.5); 
+	color: #f0f0f0; 
+	padding: 5px;
+	max-width: 250px;
+	font-size: 12px;
+	position: absolute;
+	z-index: 100666;
+	
+}
+
+
+
+
+
+</style>
+<body>
+<div id="content"></div>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+
+<script>
+
+var width = 1000, height = 850;
+//var stations = [], stationsPositions = [], stationsIndex = [];
+var body = d3.select("body");
+
+var svg = d3.select("#content").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+
+//viewport area in coordinates
+var extent = [[37.51,55.65],[-37.70,55.81]];
+
+//specifying projection			
+var projection = d3.geo.mercator()
+	.center([37.5986,55.7501])
+	.scale(250000);
+
+var path = d3.geo.path()
+		.projection(projection);
+
+var parksPath = d3.geo.path()
+		.projection(projection);
+
+
+//setting the area
+var rect = svg.append("svg:g")
+	.attr("width", width)
+	.attr("height", height)
+	.attr("id", "rect");
+
+var parks = rect.append("svg:g")
+	.attr("id", "parks");
+
+var streets = rect.append("svg:g")
+	.attr("id", "streets");
+
+var stationsPoints = rect.append("svg:g")
+	.attr("id", "stations");
+
+var tooltip = d3.select("body")
+	.append("div")
+	.style("visibility", "hidden")
+	.attr("id", "tooltip")
+	.text("");
+
+//loading 
+d3.json("parks.geojson", function(collection) {
+	parks.selectAll("#parks")
+	  .data(collection.features)
+	  .enter().append("svg:path","parks")
+	  .attr("fill", "rgba(0,100,15,0.5)")
+	  .style("stroke-width", 1)
+	  .attr("d", parksPath);
+	});
+
+d3.json("streets.geojson", function(collection) {
+	  streets.selectAll("#streetsLines")
+	    .data(collection.features)
+	    .enter().append("svg:path","streetsLines")
+		.attr("fill", "none")
+		.style("stroke", "rgba(140,140,140,0.25)")
+		.style("stroke-width", 1.5)
+	    .attr("d", path);
+	});
+
+
+//loading stations CSV
+d3.tsv("stations.csv", function(d,i) { 
+
+	//getting lonlat
+	var location = projection([d.Lon, d.Lat]);
+	var fill = d3.hsl((i = (i*3) % 360), 1, .5);
+	console.log(fill);
+
+	stationsPoints.append("circle", "stationsPoints")
+       .attr("cx", location[0])
+       .attr("cy", location[1])
+	   .style("fill", fill)
+	   .style("stroke-width", 0)
+	   .style("cursor", "pointer")
+       .attr("r", 10)
+ 	   .on("mouseenter", function(z){
+		   d3.select(this)
+		   .transition()
+		   .duration(800)
+		   .ease("bounce")
+		   //.style("opacity", .8)
+		   .attr("r", 35);
+	   })
+	   .on("mousemove", function(z){
+		   tooltip.style("top", (event.pageY+15)+"px").style("left",(event.pageX+15)+"px");
+		   tooltip.style("visibility", "visible").text(d.Code + ": " + d.Name);
+	   })
+ 	   .on("mouseout", function(d,i){
+		   d3.select(this)
+		   .transition()
+		   .duration(500)
+		   .ease("bounce")
+		   .style("opacity", 1)
+		   .attr("r", 10);
+		   tooltip.style("visibility", "hidden").text("")
+		   	})
+		
+		.on("click", function(z){	
+ 		   d3.select(this)
+ 		   .transition()
+ 		   .duration(500)
+ 		   .ease(Math.sqrt)
+ 		   //.style("opacity", .8)
+ 		   .attr("r", 1000)
+		   .style("opacity", 0)
+ 		   .transition()
+ 		   .duration(500)
+		   .ease("bounce")
+		   .attr("r", 10)
+		   .style("opacity", 1);
+	   });
+   
+   },
+   function(d){
+        // data imported
+	}
+	);
+
+</script>
+</body>
+</html>
