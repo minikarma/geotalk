@@ -13,8 +13,15 @@
 Открытые данные от муниципалитетов:  
 [data.mos.ru](http://data.mos.ru) — портал открытых данных Правительства Москвы  
 [data.gov.uk](http://data.gov.uk) — Великобритания  
-[data.gov.uk](http://data.gov) — США  
+[data.gov](http://data.gov) — США  
 
 Дополнительные ссылки:  
 [Хорошая презентация](http://maptime.io/geodata/#0) про основные типы данных от maptime.io  
 [Статья на Википедии](http://en.wikipedia.org/wiki/GIS_file_formats) про форматы геоданных  
+
+####Файлы
+`shapefile/` — пример формата ESRI Shapefile, здания в центре Москвы(OpenStreetMap)  
+`wifi_points.csv` — пример CSV-файла с координатами, Wi-Fi точки доступа в парках Москвы  
+`walks.kml` — пример Keyhole Markup Language файла с геоданными: маршруты прогулок  
+`bike_track.gpx` — пример GPX-трека из RunKeeper  
+`amenities.geojson` — пример точек сервиса из OpenStretMap

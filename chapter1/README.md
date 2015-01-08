@@ -18,5 +18,5 @@ https://a.tiles.mapbox.com/v3/pinterest.map-ho21rkos/page.html#13/40.7345/-73.97
 [Такси в Нью-Йорке](http://taxi.imagework.com/) и ещё одна визуализация[такси в Нью-Йорке](http://nyctaxi.herokuapp.com/)  
 
 Дополнительно:  
-[«Краткое введение в ГИС»](http://gis-lab.info/qa/gentle-intro-gis.html) перевод книги [«A Gentle Introduction to GIS»](http://download.osgeo.org/qgis/doc/manual/qgis-1.0.0_a-gentle-gis-introduction_en.pdf) на русский язык
-[Anatomy of the Web Map](http://maptime.io/anatomy-of-a-web-map/#0) — презентация про основы веб-картографии
+[«Краткое введение в ГИС»](http://gis-lab.info/qa/gentle-intro-gis.html) перевод книги [«A Gentle Introduction to GIS»](http://download.osgeo.org/qgis/doc/manual/qgis-1.0.0_a-gentle-gis-introduction_en.pdf) на русский язык  
+[Anatomy of the Web Map](http://maptime.io/anatomy-of-a-web-map/#0) — презентация про основы веб-картографии  
