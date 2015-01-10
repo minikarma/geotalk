@@ -9,7 +9,7 @@
 [Metro Extracts](http://mapzen.com/metro-extracts) — данные по крупным городам от Mapzen  
 [Ссылки на другие проекты](http://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts) где можно скачивать данные OpenStreetMap 
 
-**Открытые:**  
+**Открытые данные:**  
 [data.mos.ru](http://data.mos.ru) — портал открытых данных Правительства Москвы  
 [data.gov.uk](http://data.gov.uk) — Великобритания  
 [data.gov](http://data.gov) — США  

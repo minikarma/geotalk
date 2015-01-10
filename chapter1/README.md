@@ -20,3 +20,4 @@ https://a.tiles.mapbox.com/v3/pinterest.map-ho21rkos/page.html#13/40.7345/-73.97
 **Дополнительно:**  
 [«Краткое введение в ГИС»](http://gis-lab.info/qa/gentle-intro-gis.html) перевод книги [«A Gentle Introduction to GIS»](http://download.osgeo.org/qgis/doc/manual/qgis-1.0.0_a-gentle-gis-introduction_en.pdf) на русский язык  
 [Anatomy of the Web Map](http://maptime.io/anatomy-of-a-web-map/#0) — презентация про основы веб-картографии  
+[Maps and the Geospatial Revolution](https://class.coursera.org/maps-002) — курс на Coursera про картографию
