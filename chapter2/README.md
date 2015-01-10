@@ -18,7 +18,10 @@
 
 **Дополнительные ссылки:**  
 [Хорошая презентация](http://maptime.io/geodata/#0) про основные типы данных от maptime.io  
-[Статья на Википедии](http://en.wikipedia.org/wiki/GIS_file_formats) про форматы геоданных  
+[Географические координаты](https://ru.wikipedia.org/wiki/Географические_координаты) — статья на Википедии  
+[ГИС-форматы](http://en.wikipedia.org/wiki/GIS_file_formats) — англоязычная статья на Википедии  
+
+[Видео на карте](https://www.mapbox.com/mapbox-gl-js/example/video-on-a-map/) — демонстрация возможностей MapboxGL.js по встраиванию видео на карту
 
 ####Файлы
 `shapefile/` — пример формата ESRI Shapefile, здания в центре Москвы(OpenStreetMap)  
