@@ -14,6 +14,7 @@
 [data.gov.uk](http://data.gov.uk) — Великобритания  
 [data.gov](http://data.gov) — США  
 [Полезные ресурсы по открытым данным](http://habrahabr.ru/company/infoculture/blog/201892/) — большая подборка ссылок на открытые данные в России  
+[Список госпорталов открытых данных](http://iradche.livejournal.com/39959.html)
 
 **Дополнительные ссылки:**  
 [Хорошая презентация](http://maptime.io/geodata/#0) про основные типы данных от maptime.io  
