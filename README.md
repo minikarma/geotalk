@@ -12,38 +12,44 @@
 #### Глава 1. Введение
 Введение в курс и примеры картографических визуализаций
 * [Видео (2:25)](https://vimeo.com/album/3200558/video/116383646)
-* [Ссылки и коментарии](http://vimeo.com/)
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter1)
 
 #### Глава 2. Геоданные
 Типы и форматы геоданных. Открытые геоданные.
-* [Скринкаст](http://vimeo.com/)
-* [Ссылки и коментарии](http://vimeo.com/)
+* [Видео (3:50)](https://vimeo.com/117672975)
+* [Ссылки, коментарии и примеры файлов](https://github.com/minikarma/geotalk/tree/master/chapter2)
 
 #### Глава 3. Quantum GIS
 Незаменимый инструментарий работы с геоданными. Импорт/экспорт данных, конвертация данных из формата в формат.
+* Видео — TBD 03.02.2015
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter3)  
 
 #### Глава 4. Carto DB
 Визуализируем дорожно-транспортные происшествия в Девере. 
-* [Скринкаст](http://vimeo.com/)
-* [Ссылки и коментарии](http://vimeo.com/)
-
+* TBD 10.02.2015
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter4)  
 
 #### Глава 5. TileMill и Mapbox
 CartoCSS, работа со стилями карты.
-* [Скринкаст](http://vimeo.com/)
-* [Ссылки и коментарии](http://vimeo.com/)
+* TBD 17.02.2015
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter5)  
+
 
 #### Глава 6. API Яндекс.Карт
 Добавление данных из GeoJSON, использование шаблонов и атрибутов данных. 
-* [Скринкаст](http://vimeo.com/)
-* [Ссылки и коментарии](http://vimeo.com/)
+* TBD 24.02.2015
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter6)  
 
 #### Глава 7. JavaScript D3.js
 Работа с SVG-форматом. Визуализируем пункты велопроката в Москве.
-* [Скринкаст](http://vimeo.com/)
-* [Ссылки и коментарии](http://vimeo.com/)
+* TBD 03.03.2015
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter7)  
+
 
 #### Глава 8. Mapbox Design Studio
 Картографические стили, работа с данными от MapBox
+* TBD 11.03.2015
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter8)  
+
 
 #### Дополнительные материалы
