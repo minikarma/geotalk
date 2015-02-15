@@ -21,7 +21,7 @@
 
 #### Глава 3. Quantum GIS
 Незаменимый инструментарий работы с геоданными. Импорт/экспорт данных, конвертация данных из формата в формат.
-* [Видео (9:51)](hhttps://vimeo.com/minikarma/geotalk-chapter3)
+* [Видео (9:51)](https://vimeo.com/minikarma/geotalk-chapter3)
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter3)  
 
 #### Глава 4. Carto DB
