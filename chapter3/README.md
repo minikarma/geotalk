@@ -1,5 +1,5 @@
 ###Глава 3. Quantum GIS  
-[Видео скринкаста](http://vimeo.com/)
+* [Видео (9:51)](http://youtu.be/WNZhxrCGVsU)
 
 ####Ссылки 
 [Официальный сайт QGIS](http://www.qgis.org/ru/site/)
