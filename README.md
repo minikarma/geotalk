@@ -45,11 +45,3 @@ CartoCSS, работа со стилями карты.
 * TBD 03.03.2015
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter7)  
 
-
-#### Глава 8. Mapbox Design Studio
-Картографические стили, работа с данными от MapBox
-* TBD 11.03.2015
-* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter8)  
-
-
-#### Дополнительные материалы
