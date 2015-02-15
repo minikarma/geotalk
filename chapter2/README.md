@@ -1,5 +1,5 @@
 ###Глава 2. Геоданные
-[Видео скринкаста](http://youtu.be/7c9Et_CkF1c)  
+[Видео скринкаста](https://vimeo.com/minikarma/geotalk-chapter2)  
 
 ####Ссылки
 [Ссылки на геоданные](http://gis-lab.info/qa/data.html) на сайте ГИС-Лаб  

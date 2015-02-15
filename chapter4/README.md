@@ -1,5 +1,5 @@
 ###Глава 4. Работа с Carto DB  
-[Видео скринкаста](http://vimeo.com/)
+[Видео скринкаста]()
 
 ####Ссылки  
 [CartoDB](http://cartodb.com)  
