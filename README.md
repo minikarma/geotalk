@@ -26,12 +26,12 @@
 
 #### Глава 4. Carto DB
 Визуализируем землятрясения за последние 30 дней по всему миру. 
-* TBD 24.02.2015
+* [Видео (11:38)](https://vimeo.com/minikarma/geotalk-chapter4)
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter4)  
 
 #### Глава 5. TileMill и Mapbox
 CartoCSS, работа со стилями карты.
-* TBD 17.02.2015
+* TBD 24.02.2015
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter5)  
 
 
