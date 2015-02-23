@@ -29,28 +29,28 @@ ymaps.ready(function() {
 	//загружаем bikepoints.json с помощью jQuery
 	jQuery.getJSON('data/bikepoints.json', function(json) {
 		
-		//var capacity;  
+		var capacity;  
 		
 		//в json файле есть массив features с геообъектами, обходим его
 		jQuery.each(json.features,function(i, feature) {
 			//добавляем на карту объект с координатами
 			
-			//capacity = feature.properties.StationCapacity;
+			capacity = feature.properties.StationCapacity*3;
 			
 			myMap.geoObjects.add(new ymaps.Placemark(feature.geometry.coordinates, {
-				//balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity
+				balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity
 			}, {
 				
 				//использование стиля маркера из пресета
 				//варианты пресетов: https://tech.yandex.ru/maps/doc/jsapi/2.1/ref/reference/option.presetStorage-docpage/
-				//preset: 'islands#circleDotIcon', //стандартный пресет
-				//iconColor: '#ff0000', //цвет метки из пресета
+				preset: 'islands#circleDotIcon', //стандартный пресет
+				iconColor: '#ff0000' //цвет метки из пресета
 				
 				//задание значка с собственным изображением
 				//iconLayout: 'default#image',
 				//iconImageHref: 'src/bikeicon.svg',
-				//iconImageSize: [24, 24],
-				//iconImageOffset: [-12, -12]
+				//iconImageSize: [capacity, capacity],
+				//iconImageOffset: [-(capacity/2), -(capacity/2)]
 	        }));
 		});
 	});

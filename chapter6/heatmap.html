@@ -27,7 +27,8 @@ ymaps.ready(function() {
 	var myMap = new ymaps.Map('map', {
 		center: [37.573856, 55.751574],
 		zoom: 11,
-		controls: ['default']
+		controls: ['default'],
+		type: 'yandex#satellite'
 	});
 
 	//загружаем bikepoints.json с помощью jQuery
@@ -37,16 +38,16 @@ ymaps.ready(function() {
 		ymaps.modules.require(['Heatmap'], function (Heatmap) {
 			
 			//создаём тепловую карту, указав, что нужно использовать данные из загруженного json
-			var heatmap = new Heatmap(json); //добавление тепловой карты с дефолтными параметрами
+			//var heatmap = new Heatmap(json); //добавление тепловой карты с дефолтными параметрами
 			
 			//добавление тепловой карты с кастомными параметрами
-			//var heatmap = new Heatmap(json, {
-			//	gradient: {
-			//		0.1: 'rgba(190,190,255,0.1)',
-			//		1.0: 'rgba(255,255,255,0.9)'
-			//		},
-			//	radius: 30 
-			//});
+			var heatmap = new Heatmap(json, {
+				gradient: {
+					0.1: 'rgba(190,190,255,0.1)',
+					1.0: 'rgba(255,255,0,0.9)'
+					},
+				radius: 30 
+			});
 			
 			//добавляем тепловую карту на нашу карту
 			heatmap.setMap(myMap);

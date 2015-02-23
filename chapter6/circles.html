@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
-    <title>Простые метки</title>
+    <title>Окружности</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <script src="http://yandex.st/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
@@ -36,8 +36,8 @@ ymaps.ready(function() {
 			// Координаты центра круга.
         		feature.geometry.coordinates,
         		// Радиус круга в метрах.
-        		250
-				//feature.properties.StationCapacity*30
+        		//250
+				feature.properties.StationCapacity*30
     			], {
 				balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity,
         		hintContent: feature.properties.Name
