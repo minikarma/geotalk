@@ -27,7 +27,7 @@ ymaps.ready(function() {
 	});
 
 	//загружаем bikepoints.json с помощью jQuery
-	jQuery.getJSON('bikepoints.json', function(json) {
+	jQuery.getJSON('data/bikepoints.json', function(json) {
 
 		//в json файле есть массив features с геообъектами, обходим его
 		jQuery.each(json.features,function(i, feature) {
@@ -36,9 +36,11 @@ ymaps.ready(function() {
 		// Координаты центра круга.
         feature.geometry.coordinates,
         // Радиус круга в метрах.
-        250
+        //250
+		feature.properties.StationCapacity*30
     ], {
-        hintContent: "Велопарковка"
+		balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity,
+        hintContent: feature.properties.Name
     }, {
         // Прозрачность заливки также можно задать используя опцию "fillOpacity".
         fillColor: "#1faee977",

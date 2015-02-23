@@ -27,7 +27,7 @@ ymaps.ready(function() {
 	});
 
 	//загружаем bikepoints.json с помощью jQuery
-	jQuery.getJSON('bikepoints.json', function(json) {
+	jQuery.getJSON('data/bikepoints.json', function(json) {
 		
 		var capacity;
 
@@ -46,7 +46,7 @@ ymaps.ready(function() {
 				//preset: 'islands#circleDotIcon', //стандартный пресет
 				//iconColor: '#1faee9', //цвет метки из пресета
 				iconLayout: 'default#image',
-				iconImageHref: 'bikeicon.svg',
+				iconImageHref: 'src/bikeicon.svg',
 				iconImageSize: [capacity, capacity],
 				iconImageOffset: [-(capacity/2), -(capacity/2)]
 	        }));

@@ -27,7 +27,7 @@ ymaps.ready(function() {
 	});
 
 	//загружаем bikepoints.json с помощью jQuery
-	jQuery.getJSON('bikepoints.json', function(json) {
+	jQuery.getJSON('data/bikepoints.json', function(json) {
 
 		//в json файле есть массив features с геообъектами
 		jQuery.each(json.features,function(i, feature) {
@@ -45,7 +45,7 @@ ymaps.ready(function() {
 				//preset: 'islands#circleDotIcon', //стандартный пресет
 				//iconColor: '#1faee9', //цвет метки из пресета
 				iconLayout: 'default#image',
-				iconImageHref: 'bikeicon.svg',
+				iconImageHref: 'src/bikeicon.svg',
 				iconImageSize: [24, 24],
 				iconImageOffset: [-12, -12]
 	        }));

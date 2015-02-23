@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
-    <title>Простые метки</title>
+    <title>Геоколлекция объектов</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <script src="http://yandex.st/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
@@ -25,19 +25,24 @@ ymaps.ready(function() {
 		zoom: 11,
 		controls: ['default']
 	});
+	
+	//создаём геоколлекцию, с заданными параметрами значка метки
+	collection = new ymaps.GeoObjectCollection(null, {
+	            iconLayout: 'default#image',
+				iconImageHref: 'src/bikeicon.svg',
+				iconImageSize: [24, 24],
+				iconImageOffset: [-12, -12]
+	        });
 
 	//загружаем bikepoints.json с помощью jQuery
 	jQuery.getJSON('data/bikepoints.json', function(json) {
 
-		//в json файле есть массив features с геообъектами, обходим его
-		jQuery.each(json.features,function(i, feature) {
-			//добавляем на карту объект с координатами
-			myMap.geoObjects.add(new ymaps.Placemark(feature.geometry.coordinates, {
-			}, {
-				//preset: 'islands#circleDotIcon', //стандартный пресет
-				//iconColor: '#1faee9', //цвет метки из пресета
-	        }));
-		});
+		//создаём массив геообъектов с помощью geoQuery
+		var objects = ymaps.geoQuery(json);
+		
+		//добавляем геообъекты в коллекцию
+		objects.addTo(collection);
+		myMap.geoObjects.add(collection);
 	});
 
 });

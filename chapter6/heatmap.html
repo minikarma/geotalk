@@ -8,7 +8,7 @@
     <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU&coordorder=longlat"></script>
    
    <!-- вызов heatmap.min.js — модуля тепловых карт для API Яндекс.Карт — https://github.com/yandex/mapsapi-heatmap -->
-    <script src="heatmap.min.js"></script>
+    <script src="src/heatmap.min.js"></script>
    
 	<style type="text/css">
         html, body, #map {
@@ -31,7 +31,7 @@ ymaps.ready(function() {
 	});
 
 	//загружаем bikepoints.json с помощью jQuery
-	jQuery.getJSON('bikepoints.json', function(json) {
+	jQuery.getJSON('data/bikepoints.json', function(json) {
 
 		//загружаем модуль тепловых карт 
 		ymaps.modules.require(['Heatmap'], function (Heatmap) {
