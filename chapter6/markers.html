@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
-    <title>Кастомные метки</title>
+    <title>Простые метки</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <script src="http://yandex.st/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
@@ -29,25 +29,27 @@ ymaps.ready(function() {
 	//загружаем bikepoints.json с помощью jQuery
 	jQuery.getJSON('bikepoints.json', function(json) {
 
-		//в json файле есть массив features с геообъектами
+		var capacity; 
+		
+		//в json файле есть массив features с геообъектами, обходим его
 		jQuery.each(json.features,function(i, feature) {
+			//добавляем на карту объект с координатами
 			
-			//var capacity; 
+			//capacity = feature.properties.StationCapacity;
 			
-			//добавляем новую метку с иконкой на карту
 			myMap.geoObjects.add(new ymaps.Placemark(feature.geometry.coordinates, {
+				balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity
+			}, {
 				
-				//задаём содержимое для балуна по клику на объект
-				balloonContent: feature.properties.Name + '<br/>' + feature.properties.Location + '<br/>Вместимость: ' + feature.properties.StationCapacity,
-				//текст подсказки по наведению
-				hintContent: feature.properties.Name
-			 			}, {
+				//использование стиля маркера из пресета
 				//preset: 'islands#circleDotIcon', //стандартный пресет
-				//iconColor: '#1faee9', //цвет метки из пресета
-				iconLayout: 'default#image',
-				iconImageHref: 'bikeicon.svg',
-				iconImageSize: [24, 24],
-				iconImageOffset: [-12, -12]
+				//iconColor: '#ff0000', //цвет метки из пресета
+				
+				//задание значка
+				//iconLayout: 'default#image',
+				//iconImageHref: 'bikeicon.svg',
+				//iconImageSize: [24, 24],
+				//iconImageOffset: [-12, -12]
 	        }));
 		});
 	});
