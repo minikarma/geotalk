@@ -15,8 +15,8 @@
 Для Mac OS, например, наиболее простой способ запуска веб-сервера локально, команда в терминале: `python -m SimpleHTTPServer`
 
 ####Примеры 
-* `simple.html` — отображение пунктов велопроката простыми метками [демо](http://getwalk.me/experiments/chapter6/simple.html)
-* `custom.html` — использование собственного значка для отображения объектов [демо](http://getwalk.me/experiments/chapter6/custom.html)
-* `custom-sizes.html` — значки различного размера [демо](http://getwalk.me/experiments/chapter6/custom-sizes.html)
-* `circles.html` — отображение объектов в виде окружностей заданного размера [демо](http://getwalk.me/experiments/chapter6/circles.html)
-* `heatmap.html` — тепловая карта пунктов проката [демо](http://getwalk.me/experiments/chapter6/heatmap.html)
+* [[simple.html|simple.html]] — отображение пунктов велопроката простыми метками [демо](http://getwalk.me/experiments/chapter6/simple.html)
+* [[custom.html|custom.html]]— использование собственного значка для отображения объектов [демо](http://getwalk.me/experiments/chapter6/custom.html)
+* [[custom-sizes.html|custom-sizes.html]] — значки различного размера [демо](http://getwalk.me/experiments/chapter6/custom-sizes.html)
+* [[circles.html|circles.html]] — отображение объектов в виде окружностей заданного размера [демо](http://getwalk.me/experiments/chapter6/circles.html)
+* [[heatmap.html|heatmap.html]] — тепловая карта пунктов проката [демо](http://getwalk.me/experiments/chapter6/heatmap.html)
