@@ -6,7 +6,7 @@
 * [Документация jQuery](http://jquery.com)
 
 ####Файлы
-* `data/bikepoints.json` — данные о станциях велопроката в Москве с сайта [data.mos.ru](http://data.mos.ru). При помощи QuantumGIS я переконвертировал исходный CSV файл (`data/bikepoints.csv`) в geoJSON формат.
+* `data/bikepoints.json` — данные о станциях велопроката в Москве с сайта [data.mos.ru](http://data.mos.ru/datasets/918). При помощи QuantumGIS я переконвертировал исходный CSV файл (`data/bikepoints.csv`) в geoJSON формат.
 * `src/bikepoints.svg` — пример значка кастомизированной метки
 
 ####Важно!
@@ -19,5 +19,6 @@
 * [custom.html](custom.html)— использование собственного значка для отображения объектов [демо](http://getwalk.me/experiments/chapter6/custom.html)
 * [custom-sizes.html](custom-sizes.html) — значки различного размера [демо](http://getwalk.me/experiments/chapter6/custom-sizes.html)
 * [collection.html](collection.html) — добавление объектов в геоколлекцию, использование кастомного значка для всей коллекции [демо](http://getwalk.me/experiments/chapter6/collection.html)
+* [cluster.html](cluster.html) — кластеризация объектов [демо](http://getwalk.me/experiments/chapter6/cluster.html)
 * [circles.html](circles.html) — отображение объектов в виде окружностей заданного размера [демо](http://getwalk.me/experiments/chapter6/circles.html)
 * [heatmap.html](heatmap.html) — тепловая карта пунктов проката [демо](http://getwalk.me/experiments/chapter6/heatmap.html)

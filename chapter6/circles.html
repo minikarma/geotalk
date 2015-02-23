@@ -33,21 +33,23 @@ ymaps.ready(function() {
 		jQuery.each(json.features,function(i, feature) {
 			//добавляем на карту объект с координатами
 			myMap.geoObjects.add(new ymaps.Circle([
-		// Координаты центра круга.
-        feature.geometry.coordinates,
-        // Радиус круга в метрах.
-        //250
-		feature.properties.StationCapacity*30
-    ], {
-		balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity,
-        hintContent: feature.properties.Name
-    }, {
-        // Прозрачность заливки также можно задать используя опцию "fillOpacity".
-        fillColor: "#1faee977",
-        // Цвет обводки.
-        strokeColor: "#0D506B",
-        // Прозрачность обводки.
-        strokeOpacity: 0.8,
+			// Координаты центра круга.
+        		feature.geometry.coordinates,
+        		// Радиус круга в метрах.
+        		250
+				//feature.properties.StationCapacity*30
+    			], {
+				balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity,
+        		hintContent: feature.properties.Name
+    			}, {
+        		// Цвет заливки окружности
+        		fillColor: "#1faee9",
+				// Прозрачность заливки
+				fillOpacity: 0.8,
+				// Цвет обводки.
+        		strokeColor: "#0D506B",
+				// Прозрачность обводки.
+        		strokeOpacity: 0.8,
         // Ширина обводки в пикселях.
         strokeWidth: 1
     }));
