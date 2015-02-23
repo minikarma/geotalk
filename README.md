@@ -31,19 +31,15 @@
 * [Видео (11:38)](https://vimeo.com/minikarma/geotalk-chapter4)
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter4)  
 
-#### Глава 5. TileMill и Mapbox
-CartoCSS, работа со стилями карты.
-* TBD 24.02.2015
+#### Глава 5. TileMill
+Стилизация карты с помощью CartoCSS в TileMill.
+* [Видео (19:27)](https://vimeo.com/minikarma/geotalk-chapter5)
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter5)  
 
-
 #### Глава 6. API Яндекс.Карт
-Добавление данных из GeoJSON, использование шаблонов и атрибутов данных. 
-* TBD 24.02.2015
+Добавление данных из GeoJSON и визуализация различными способами. 
+* Скринкаст будет опубликован — 03.03.2015
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter6)  
 
 #### Глава 7. JavaScript D3.js
-Работа с SVG-форматом. Визуализируем пункты велопроката в Москве.
-* TBD 03.03.2015
-* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter7)  
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
-    <title>Кастомные метки</title>
+    <title>Кастомные метки с изменяющимся размером</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
     <script src="http://yandex.st/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
@@ -28,9 +28,13 @@ ymaps.ready(function() {
 
 	//загружаем bikepoints.json с помощью jQuery
 	jQuery.getJSON('bikepoints.json', function(json) {
+		
+		var capacity;
 
 		//в json файле есть массив features с геообъектами
 		jQuery.each(json.features,function(i, feature) {
+			
+			capacity = feature.properties.StationCapacity * 4;
 			
 			//добавляем новую метку с иконкой на карту
 			myMap.geoObjects.add(new ymaps.Placemark(feature.geometry.coordinates, {
@@ -43,8 +47,8 @@ ymaps.ready(function() {
 				//iconColor: '#1faee9', //цвет метки из пресета
 				iconLayout: 'default#image',
 				iconImageHref: 'bikeicon.svg',
-				iconImageSize: [24, 24],
-				iconImageOffset: [-12, -12]
+				iconImageSize: [capacity, capacity],
+				iconImageOffset: [-(capacity/2), -(capacity/2)]
 	        }));
 		});
 	});
