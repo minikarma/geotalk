@@ -13,6 +13,7 @@
 [data.mos.ru](http://data.mos.ru) — портал открытых данных Правительства Москвы  
 [data.gov.uk](http://data.gov.uk) — Великобритания  
 [data.gov](http://data.gov) — США  
+[NYC OpenData](https://nycopendata.socrata.com) — сайт с открытыми данными от муниципалитета Нью-Йорка
 [Полезные ресурсы по открытым данным](http://habrahabr.ru/company/infoculture/blog/201892/) — большая подборка ссылок на открытые данные в России  
 [Список госпорталов открытых данных](http://iradche.livejournal.com/39959.html)  
 [Geonames](http://www.geonames.org) — открытая база данных с географическими объектами, около 8 миллионов названий. 
