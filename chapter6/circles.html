@@ -23,7 +23,7 @@ ymaps.ready(function() {
 	var myMap = new ymaps.Map('map', {
 		center: [37.613853, 55.752639],
 		zoom: 13,
-		controls: ['default']
+		controls: ['typeSelector', 'zoomControl']
 	});
 
 	//загружаем bikepoints.json с помощью jQuery
@@ -34,13 +34,13 @@ ymaps.ready(function() {
 			//добавляем на карту объект с координатами
 			myMap.geoObjects.add(new ymaps.Circle([
 			// Координаты центра круга.
-        		feature.geometry.coordinates,
-        		// Радиус круга в метрах.
-        		//250
+				feature.geometry.coordinates,
+				// Радиус круга в метрах.
+				//250
 				feature.properties.StationCapacity*30
-    			], {
+				], {
 				balloonContent: feature.properties.Name + '<br/>Вместимость: ' + feature.properties.StationCapacity,
-        		hintContent: feature.properties.Name
+				hintContent: feature.properties.Name
     			}, {
         		// Цвет заливки окружности
         		fillColor: "#1faee9",
