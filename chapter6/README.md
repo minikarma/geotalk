@@ -1,5 +1,8 @@
 ###Глава 6. API Яндекс.Карт  
 В этой части рассматриваются возможности визуализации точечных объектов с помощью API Яндекс.Карт.
+
+[Видео скринкаста (10:25)](https://vimeo.com/minikarma/geotalk-chapter6)
+
 ####Ссылки 
 * [Документация API Яндекс.Карт](http://tech.yandex.ru/maps/) и [примеры](https://tech.yandex.ru/maps/jsbox/2.1/)
 * [Модуль Heatmap для тепловых карт](https://github.com/yandex/mapsapi-heatmap)
