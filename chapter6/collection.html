@@ -28,11 +28,11 @@ ymaps.ready(function() {
 	
 	//создаём геоколлекцию, с заданными параметрами значка метки
 	collection = new ymaps.GeoObjectCollection(null, {
-	            iconLayout: 'default#image',
+				iconLayout: 'default#image',
 				iconImageHref: 'src/bikeicon.svg',
 				iconImageSize: [24, 24],
 				iconImageOffset: [-12, -12]
-	        });
+			});
 
 	//загружаем bikepoints.json с помощью jQuery
 	jQuery.getJSON('data/bikepoints.json', function(json) {
