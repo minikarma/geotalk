@@ -11,14 +11,12 @@
 
 **Открытые данные:**  
 [data.mos.ru](http://data.mos.ru) — портал открытых данных Правительства Москвы  
-[data.gov.uk](http://data.gov.uk) — Великобритания  
-[data.gov](http://data.gov) — США  
-[NYC OpenData](https://nycopendata.socrata.com) — сайт с открытыми данными от муниципалитета Нью-Йорка
 [Полезные ресурсы по открытым данным](http://habrahabr.ru/company/infoculture/blog/201892/) — большая подборка ссылок на открытые данные в России  
 [Список госпорталов открытых данных](http://iradche.livejournal.com/39959.html)  
-[Geonames](http://www.geonames.org) — открытая база данных с географическими объектами, около 8 миллионов названий. 
-[Free World Cities Database](https://www.maxmind.com/en/worldcities)
-
+[data.gov.uk](http://data.gov.uk) — Великобритания  
+[data.gov](http://data.gov) — США  
+[NYC OpenData](https://nycopendata.socrata.com) — сайт с открытыми данными от муниципалитета Нью-Йорка  
+[Geonames](http://www.geonames.org) — открытая база данных с географическими объектами, около 8 миллионов названий.
 
 **Про форматы геоданных:**  
 [Хорошая презентация](http://maptime.io/geodata/#0) про основные типы данных от maptime.io  
@@ -29,7 +27,6 @@
 
 **Дополнительно:**  
 [Видео на карте](https://www.mapbox.com/mapbox-gl-js/example/video-on-a-map/) — демонстрация возможностей MapboxGL.js по встраиванию видео на карту
-[Statistical review if world energy](http://www.bp.com/en/global/corporate/about-bp/energy-economics/statistical-review-of-world-energy.html) — статистика потребления энергии от BP  
 
 ####Файлы
 `shapefile/` — пример формата ESRI Shapefile, здания в центре Москвы(OpenStreetMap)  
