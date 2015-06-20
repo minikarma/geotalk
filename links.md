@@ -13,6 +13,7 @@
  * [Geospatial Intelligence & the Geospatial Revolution](https://www.coursera.org/course/geoint)
  * [Geodesign: Change Your World](https://www.coursera.org/course/geodesign) (c июля-2015)
  * [From GPS and Google Maps to Spatial Computing](https://www.coursera.org/course/spatialcomputing)
+  
 
 
 **Истории**  
@@ -23,7 +24,8 @@
 
 [Про Cartamarina в Википедии](https://ru.wikipedia.org/wiki/Carta_Marina) — Олаф Магнус и его карта Северной Европы  
 [Booth's Poverty map](http://en.wikipedia.org/wiki/Poverty_map) — Life and Labour of the People in London, 1889  
-
+  
+[Дизайн Яндекс.Карт как наука и увлечение](http://habrahabr.ru/company/yandex/blog/185952/) — моя статья на Хабре про редизайн Яндекс.Карт (2013)  
 
 ####Интересные проекты
 
