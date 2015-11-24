@@ -1,5 +1,5 @@
 ###Глава 5. Mapbox Studio
-[Видео скринкаста (11:29)](https://vimeo.com/minikarma/geotalk-chapter7)
+[Видео скринкаста (11:10)](https://vimeo.com/minikarma/geotalk-chapter7)
 
 ####Ссылки
 [Mapbox Studio](http://mapbox.com/studio/)  

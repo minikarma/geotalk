@@ -36,7 +36,8 @@
 #### Глава 5. TileMill
 Стилизация карты с помощью CartoCSS в TileMill.
 * [Видео (19:27)](https://vimeo.com/minikarma/geotalk-chapter5)
-* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter5)
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter5)  
+Совет: TileMill во многом уже теряет свою актуальность и для стилизации картографических данных Mapbox разработал более удобный инструмент. Рекомендую внимательнее изучить Часть 7 с обзором новой Studio.  
 
 #### Глава 6. API Яндекс.Карт
 Добавление данных о пунктах проката велосипедов в Москве в формате GeoJSON и отображение их на карте различными способами.
@@ -45,7 +46,7 @@
 
 #### Глава 7. Mapbox Studio стилизация
 Стилизация данных с помощью Mapbox Studio.  
-* [Видео (11:29)](https://vimeo.com/minikarma/geotalk-chapter7)
+* [Видео (11:10)](https://vimeo.com/minikarma/geotalk-chapter7)
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter7)  
 
 
