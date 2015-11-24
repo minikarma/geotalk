@@ -1,6 +1,6 @@
 ###Привет
 
-«Курс по визуализации геоданных» — серия мини-лекций о форматах геоданных, принципах и технологиях визуализации картографической информации. 
+«Курс по визуализации геоданных» — серия мини-лекций о форматах геоданных, принципах и технологиях визуализации картографической информации.
 
 Все части курса я опубликовал в [альбоме на Vimeo](https://vimeo.com/album/3200558), а в этом репозитории вы найдёте сопутствующие материалы и примеры рабочих файлов.  
 
@@ -29,24 +29,28 @@
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter3)  
 
 #### Глава 4. Carto DB
-Визуализируем землятрясения за последние 30 дней по всему миру. 
+Визуализируем землятрясения за последние 30 дней по всему миру.
 * [Видео (11:38)](https://vimeo.com/minikarma/geotalk-chapter4)
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter4)  
 
 #### Глава 5. TileMill
 Стилизация карты с помощью CartoCSS в TileMill.
 * [Видео (19:27)](https://vimeo.com/minikarma/geotalk-chapter5)
-* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter5)  
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter5)
 
 #### Глава 6. API Яндекс.Карт
-Добавление данных о пунктах проката велосипедов в Москве в формате GeoJSON и отображение их на карте различными способами. 
+Добавление данных о пунктах проката велосипедов в Москве в формате GeoJSON и отображение их на карте различными способами.
 * [Видео (10:25)](https://vimeo.com/minikarma/geotalk-chapter6)
 * [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter6)  
 
+#### Глава 7. Mapbox Studio стилизация
+Стилизация данных с помощью Mapbox Studio.  
+* [Видео (11:29)](https://vimeo.com/minikarma/geotalk-chapter7)
+* [Ссылки и коментарии](https://github.com/minikarma/geotalk/tree/master/chapter7)  
+
 
 ***
-Возможные темы для дальнейших частей курса: 
+Возможные темы для дальнейших частей курса:
 * Визуализация геоданных с помощью [D3.js](http://D3js.org)
 * MapBox Design Studio
 * Знакомство с PostgreSQL и PostGIS
-
