@@ -1,4 +1,4 @@
-###Глава 5. Mapbox Studio
+###Глава 7. Mapbox Studio
 [Видео скринкаста (11:10)](https://vimeo.com/minikarma/geotalk-chapter7)
 
 ####Ссылки
