@@ -6,14 +6,25 @@
 [Текстовая версия этого курса](https://medium.com/russian/визуализируй-это-dca8fd3da113)  
 [«Бытовая картография»](https://www.facebook.com/groups/geoviz/) — тематическая группа в фейсбуке  
 
-[Thematic Cartography Guide](http://axismaps.github.io/thematic-cartography/) — очень краткое и содержательное руковоство про базовые принципы тематической картографии  
+[Thematic Cartography Guide](http://axismaps.github.io/thematic-cartography/) — очень краткое и содержательное руковоство про базовые принципы тематической картографии.  
+Перевод на русский язык:  
+ * [Первая часть](http://habrahabr.ru/post/268877/)
+ * [Вторая часть](https://habrahabr.ru/post/274937/)  
+
 
 Курсы на Coursera про карты:  
  * [Maps and Geospatial Revolution](https://www.coursera.org/course/maps)
  * [Geospatial Intelligence & the Geospatial Revolution](https://www.coursera.org/course/geoint)
  * [Geodesign: Change Your World](https://www.coursera.org/course/geodesign) (c июля-2015)
- * [From GPS and Google Maps to Spatial Computing](https://www.coursera.org/course/spatialcomputing)
-  
+ * [From GPS and Google Maps to Spatial Computing](https://www.coursera.org/course/spatialcomputing)  
+
+Теоретические основы:  
+* [Георафические координаты (Wikipedia)](https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5_%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D1%8B)  
+* [Координаты и проекции](https://tech.yandex.ru/maps/doc/theory/concepts/coordinates-docpage/)
+* [Проекция Меркатора](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%86%D0%B8%D1%8F_%D0%9C%D0%B5%D1%80%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D0%B0) — статья на Википедии
+* [The True Sizes of ...](http://thetruesize.com/#/aboutModal) — интерактивная карта, реальный размер стран
+* [Анимация смены различных проекций от Джейсона Дэвиса](https://www.jasondavies.com/maps/transition/)
+* [Примеры проекций в D3.js](https://github.com/mbostock/d3/wiki/Geo-Projections)
 
 
 **Истории**  
@@ -24,7 +35,7 @@
 
 [Про Cartamarina в Википедии](https://ru.wikipedia.org/wiki/Carta_Marina) — Олаф Магнус и его карта Северной Европы  
 [Booth's Poverty map](http://en.wikipedia.org/wiki/Poverty_map) — Life and Labour of the People in London, 1889  
-  
+
 [Дизайн Яндекс.Карт как наука и увлечение](http://habrahabr.ru/company/yandex/blog/185952/) — моя статья на Хабре про редизайн Яндекс.Карт (2013)  
 
 ####Интересные проекты
@@ -50,12 +61,12 @@
 Визуализации перемещения такси: [taxi.imagework.com](http://taxi.imagework.com/) и [nyctaxi.herokuapp.com](http://nyctaxi.herokuapp.com/)  
 
 [Tourists vs Locals](https://www.mapbox.com/labs/twitter-gnip/locals/) — Визуализация твиттера по признаку местный/турист. Примечателен проект тем, что можно сравнивать разные города.  
-  
+
 Визуализация зданий по годам: [Нидерланды](http://code.waag.org/buildings/#52.3599,4.8898,14), [Бруклин](http://bklynr.com/block-by-block-brooklyns-past-and-present/), [Нью-Йорк](http://io.morphocode.com/urban-layers/), [Москва](http://msk.mercator.ru/)  
-  
+
 [DataCanvas](http://datacanvas.org) —&nbsp;Сеть датчиков про различные условия среды в городе (загрязнение, шум, температура, влажность) и визуализация их. Подробно описан процесс как самому можно подключиться к проекту и что нужно для сбора данных.  
-  
-[Earth](http://earth.nullschool.net/) — очень крутой интерактивный проект, показывает потоки ветра в реальном времени на планете. 
+
+[Earth](http://earth.nullschool.net/) — очень крутой интерактивный проект, показывает потоки ветра в реальном времени на планете.
 
 ####Тематические сайты и блоги
 
@@ -85,10 +96,11 @@
  * [CityLab](http://www.citylab.com)
  * [visualizing.nyc](http://visualizing.nyc/)
  * [Vintage Visualizations](http://vintagevisualizations.com)    
-  
+
 **Инструменты, софт**
  * [MapBox](http://mapbox.com)
  * [CartoDB](http://cartodb.com)
  * [QGIS](http://www.qgis.org/en/site/)
  * [Color Brewer](http://colorbrewer2.org) — очень удобный инструмент подбора цветов для тематических карт
-
+ * [geojson.io](http://geojson.io) — инструмент для создания карт и данных в формате geoJSON  
+ * [Overpass Turbo](http://overpass-turbo.eu) — работа с OpenStreetMap данными (выгрузка или просмотр)
